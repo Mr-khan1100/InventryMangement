@@ -4,6 +4,17 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
+## App Functionality:
+1. user Validation with registration and login page.
+2. Three Tab screens to show (Dashboard/ inventry / and history).
+3. dashboard shows category, product and user count. A KPI card to show detial and a Pie chart to visualize the data.
+4. Invetry Screen contains nested Stack Screens:
+    i. first screen shows category List with  functionality such as Add category , edit and delete category
+    ii. each category contains multiple products and each product can be added , updated and deleted .
+    iii. Each product can be viewed  in a details Screen.
+5. History Screen: user can addprofile image. and see the actions they have performed so far.
+
+
 ## Step 1: Start Metro
 
 First, you will need to run **Metro**, the JavaScript build tool for React Native.
